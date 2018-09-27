@@ -1,7 +1,7 @@
 # TabLayout-Bug
 The is simple project to reproduce TabLayout tab background bug in support library 28.0.0.  
   
-When you add `app:tabBackground="?android:attr/selectableItemBackgroundBorderless"` to TabLayout,
+When you add `app:tabBackground="?android:attr/selectableItemBackgroundBorderless"` to TabLayout,  
 press tab must be like borderless with round ripple.
 
 ## Screenshot
