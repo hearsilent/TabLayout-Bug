@@ -1,8 +1,10 @@
-# TabLayout-Bug
+# TabLayout-Bug (Fixed)
 The is simple project to reproduce TabLayout tab background bug in support library 28.0.0.  
   
 When you add `app:tabBackground="?android:attr/selectableItemBackgroundBorderless"` to TabLayout,  
-press tab must be like borderless with round ripple.
+press tab must be like borderless with round ripple.  
+  
+**Fixed:** Just add `app:tabUnboundedRipple="true"` to TabLayout in your layout xml.
 
 ## Screenshot
 ### 27.1.1
@@ -13,3 +15,4 @@ press tab must be like borderless with round ripple.
 
 ## Issue Tracker
 - [TabLayout tab background issue](https://issuetracker.google.com/issues/116745358)
+- [[TabLayout] TabLayout tab background issue](https://issuetracker.google.com/issues/116747147)
