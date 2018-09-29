@@ -26,7 +26,8 @@
             app:tabBackground="?android:attr/selectableItemBackgroundBorderless"
             app:tabGravity="fill"
             app:tabIndicatorHeight="0dp"
-            app:tabMode="fixed" />
+            app:tabMode="fixed"
+            app:tabUnboundedRipple="true" />
     </android.support.design.widget.AppBarLayout>
 
     <TextView
